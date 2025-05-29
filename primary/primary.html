@@ -1,0 +1,664 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MPIS</title>
+    <link rel="stylesheet" href="primary.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide/dist/css/glide.core.min.css">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="images/favicon-1.ico" type="image/x-icon" />
+
+</head>
+
+<body>
+
+    <!-- Secondary Header (Announcements & Quick Links) -->
+    <div class="secondary-header" id="secondaryHeader">
+        <div class="quick-links">
+            <a href="mailto:henrymillsdel@gmail.com"><i class="fas fa-envelope"></i> motherprovidenciasch@gmail.com</a>
+            <a href="tel:+233555116438"><i class="fas fa-phone"></i> 0207563043 / 0551111186</a>
+            <a href="#"><i class="fas fa-map-marker-alt"></i> Adenta, New Legon(Rosa - Rosa)</a>
+            <a href="#"><i class="fas fa-clock"></i> 8:00am - 4:00pm (Mon-Fri)</a>
+        </div>
+        <div class="social-media">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="searchInput" placeholder="Search..." />
+            <a href="#" id="searchLink"><i class="fas fa-search"></i></a>
+        </div>
+
+
+    </div>
+
+    <!-- Main Header (Primary Navigation) -->
+    <header class="main-header" id="mainHeader">
+        <div class="logo">
+            <img src="img/mlogo.png" alt="School Logo" />
+            <h2>Mother Providencia International School</h2>
+        </div>
+
+        <nav>
+            <ul class="menu">
+                <li><a href="../home.html/index.html"><i class="fas fa-home"></i> Home</a></li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-info-circle"></i> About Us +</a>
+                    <ul class="submenu">
+                        <li><a href="/head/head.html">Headmistress Message</a></li>
+                        <li><a href="../about us/about.html">Our History</a></li>
+                        <li><a href="../Academics/bpard/board.html">School Management</a></li>
+                        <li><a href="../student/std.html">Student Leadership</a></li>
+                        <li><a href="../School anthem/anthem.html">School Anthem/Hymn</a></li>
+                        <li><a href="../Hall-of-fame/hall-of-fame.html">Alumni/Hall Of Fame</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-book"></i> Academics +</a>
+                    <ul class="submenu">
+                        <li><a href="../Academics/curriculum.html">Curriculum</a></li>
+                        <li><a href="../staff/staff.html">Staff</a></li>
+                        <li><a href="../Academics/presch/presch.html">Pre-School</a></li>
+                        <li><a href="../Academics/primary/primary.html">Primary</a></li>
+                        <li><a href="../Academics/jhs/jhs.html">JHS</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-newspaper"></i> News & Events +</a>
+                    <ul class="submenu">
+                        <li><a href="#">News and Updates</a></li>
+                        <li><a href="#">Archived News</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-user"></i> Admissions +</a>
+                    <ul class="submenu">
+                        <li><a href="../admission/admission.html">Admission Procedure</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="../pta/facility.html"><i class="fas fa-school"></i> Facilities </a>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-heart"></i> Activities +</a>
+                    <ul class="submenu">
+                        <li><a href="#">Spiritual & Social Guidance</a></li>
+                    </ul>
+                </li>
+                <li class="has-submenu">
+                    <a href="#"><i class="fas fa-image"></i> Gallery</a>
+                    <ul class="submenu">
+                        <li><a href="../gallery/gallery.html">Photo Gallery</a></li>
+                        <li><a href="../gallery/gallery.html">Video Gallery</a></li>
+                    </ul>
+                </li>
+                <li><a href="../contact/contact.html"><i class="fas fa-phone"></i> Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </header>
+
+
+    <!-- PDF DOWNLOAD SLIDER -->
+
+    <section class="hero-slider">
+        <div class="slider-container">
+            <div class="slider">
+                <div class="slide">
+                    <img src="img/slide-1.jpg" alt="Slide 1" />
+                    <div class="slide-content">
+                        <h2>Welcome to Our Facility</h2>
+                        <p>Experience world-class amenities and support.</p>
+                        <a href="../Academics/curri.html" class="download-btn">View Info</a>
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/slide-2.jpg" alt="Slide 2" />
+                    <div class="slide-content">
+                        <h2>Modern Technology</h2>
+                        <p>We equip learners with cutting-edge tools.</p>
+                        <<a href="facility-info.html" class="download-btn">View Info</a>
+
+                    </div>
+                </div>
+                <div class="slide">
+                    <img src="img/slide-3.jpg" alt="Slide 3" />
+                    <div class="slide-content">
+                        <h2>Dedicated Staff</h2>
+                        <p>Our professional team ensures the best care.</p>
+                        <a href="facility-info.html" class="download-btn">View Info</a>
+
+                    </div>
+                </div>
+            </div>
+
+            <div class="arrow prev" onclick="prevSlide()">
+                <ion-icon name="chevron-back-outline"></ion-icon>
+            </div>
+            <div class="arrow next" onclick="nextSlide()">
+                <ion-icon name="chevron-forward-outline"></ion-icon>
+            </div>
+        </div>
+
+        <div class="slider-controler">
+            <span class="dot active" onclick="moveToSlide(0)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+            <span class="dot" onclick="moveToSlide(2)"></span>
+            <span class="dot" onclick="moveToSlide(3)"></span>
+            <span class="dot" onclick="moveToSlide(1)"></span>
+        </div>
+    </section>
+
+    <div style="background-color: #3610a0; padding: 10px;">
+        <marquee scrollamount="5" width="100%" style="color: white;">
+            “Education is the most powerful weapon which you can use to change the world.” – Nelson Mandela
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            📅 2025 Admissions Now Open! Enroll Today and Join the Journey of Excellence.
+        </marquee>
+    </div>
+
+
+    <!-- Animated Text Section -->
+    <section class="animated-text-section">
+        <h2 class="animated-text" data-text="Primary...">Primary...</h2>
+    </section>
+
+
+
+    <section class="activities-section">
+        <div class="activity-image">
+            <img id="slideshow-image" src="img/team-member-01.jpg" alt="Activity Image">
+            <img src="img/team-member-02.jpg" alt="Second Activity Image" style="margin-top: 20px;">
+        </div>
+
+
+        <div class="activity-timeline">
+            <div class="timeline-item" data-title="Welcome Mass"
+                data-detail="We begin each term with a spiritual ceremony where all students, teachers, and staff gather in the school chapel for a Holy Mass led by a visiting priest. ">
+                <h3>Impact of the Primary School Curriculum on Our Learners </h3>
+                <p>
+                    At <strong> MPIS</strong>, the Primary School curriculum is designed to build upon the strong
+                    foundation laid at the preschool level.
+                </p>
+                <p>
+                    Guided by Ghana’s Standards-Based Curriculum, it promotes critical thinking, creativity, and strong
+                    academic competence .Through structured lessons, group work, and practical projects, students
+                    develop literacy, numeracy, and problem-solving skills that are essential for everyday life and
+                    future academic success.
+                </p>
+            </div>
+
+            <div class="timeline-item" data-title="Cultural Day"
+                data-detail="On Cultural Day, learners dress in traditional Ghanaian attire, perform dances, and display cultural food, crafts, and practices to celebrate heritage.">
+                <h3>Performance at the Primary School Level </h3>
+                <p>
+                    Our Primary School students consistently demonstrate academic excellence and progressive skill
+                    development across all subjects. Learners are encouraged to be active participants in their
+                    education through continuous assessments, projects, and interactive teaching methodologies.
+                </p>
+                <p>
+                    The consistent success of our pupils in internal evaluations and inter-school academic competitions
+                    reflects the strength of our teaching and learning process. This level serves as a critical growth
+                    phase, where learners mature academically and socially in preparation for Junior High School.
+                </p>
+            </div>
+
+            <div class="timeline-item" data-title="Community Outreach"
+                data-detail="Students visit hospitals and orphanages, sharing donations and performing songs to bring smiles to those in need.">
+                <h3>Dedicated and Professional Staff </h3>
+                <p>
+                    The quality of education at our Primary School is deeply rooted in the professionalism and passion
+                    of our teaching staff. Our educators are trained to understand and respond to the developmental
+                    needs of children in this age group.
+                </p>
+                <p>
+                    They employ diverse instructional strategies to cater to different learning styles and abilities,
+                    ensuring no child is left behind. Regular training, mentorship, and collaborative planning empower
+                    our staff to deliver the curriculum with clarity, creativity, and care, resulting in meaningful
+                    learning experiences.
+                </p>
+            </div>
+
+            <div class="timeline-item" data-title="sports "
+                data-detail="Students visit hospitals and orphanages, sharing donations and performing songs to bring smiles to those in need.">
+                <h3>Preparing Learners for the Next Level </h3>
+                <p>
+                    The Primary School phase at <strong> MPIS</strong> is strategically structured to prepare learners
+                    for
+                    the rigors of Junior High School. With a balanced focus on academics, life skills, and moral
+                    development, our pupils transition with readiness and resilience.
+                </p>
+                <p>
+                    Their ability to adapt, excel, and lead at the next level is a testament to the strength of our
+                    curriculum, the dedication of our staff, and the supportive environment we provide for every child’s
+                    growth.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script>
+        const timelineItems = document.querySelectorAll(".timeline-item");
+        const isInView = (el) => {
+            const rect = el.getBoundingClientRect();
+            return rect.top < window.innerHeight - 50 && rect.bottom > 50;
+        };
+        const handleScroll = () => {
+            timelineItems.forEach(el => {
+                if (isInView(el)) {
+                    el.classList.add("in-view");
+                } else {
+                    el.classList.remove("in-view");
+                }
+            });
+        };
+        window.addEventListener("scroll", handleScroll);
+        window.addEventListener("load", handleScroll);
+
+    </script>
+
+
+    <!-- LATEST NEWS AND UPDATE -->
+    <!-- LATEST NEWS AND UPDATE -->
+    <div class="glide blog-slider">
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">&#10094;</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">&#10095;</button>
+        </div>
+
+        <div class="title">
+            <h1>Latest News & Updates </h1>
+        </div>
+        <div class="glide__track" data-glide-el="track">
+            <ul class="glide__slides">
+                <li class="glide__slide">
+                    <div class="blog-box">
+                        <div class="image-container"><img src="images/blog-1.jpg" alt=""></div>
+                        <div class="content">
+                            <h4><strong>Website Launch</strong></h4>
+                            <p>Mount Pleasant International School (MPIS) proudly launched its official school website
+                                in a festive event.</p>
+                            <a href="../latest news/latest1.html" class="read-more-btn">Read More</a>
+
+                        </div>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="blog-box">
+                        <div class="image-container"><img src="images/blog-2.jpg" alt=""></div>
+                        <div class="content">
+                            <h4><strong>MPIS Marks African Union Celebration</strong></h4>
+                            <p>Learners turned out in beautifully tailored African prints, showcasing the rich diversity
+                                and vibrancy of African cultures.</p>
+                            <a href="../latest news/latest3.html">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <li class="glide__slide">
+                    <div class="blog-box">
+                        <div class="image-container"><img src="images/blog-3.jpg" alt=""></div>
+                        <div class="content">
+                            <h4><strong>Sister Mary, HDR Appointed as New Headmistress of MPIS</strong></h4>
+                            <p>On October 5, 2024, Sister Mary, HDR, was formally appointed as the new Headmistress of
+                                Mount Pleasant International School.</p>
+                            <a href="../latest news/latest2.html">Read More</a>
+                        </div>
+                    </div>
+                </li>
+                <!-- Add more slides as needed -->
+            </ul>
+        </div>
+    </div>
+
+
+
+
+    <!-- FOOTER  -->
+    <footer class="footer-area">
+        <div class="footer-wave-box">
+            <div class="footer-wave footer-animation"></div>
+        </div>
+        <div class="main">
+            <div class="footer">
+
+                <div class="single-footer logo-footer">
+                    <img src="img/logo.jpg" alt="School Logo" class="footer-logo">
+                    <!-- replace img path and filename accordingly -->
+
+                    <div class="single-footer footer-social-container">
+                        <div class="footer-social">
+                            <a href="#"><i class="fab fa-facebook-f"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="single-footer">
+                    <h4>Main Menu</h4>
+                    <ul>
+                        <li><a href="/home.html/index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+                        <li><a href="/home.html/index.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+                        <li><a href="/admission/admission.html"><i class="fas fa-chevron-right"></i> Admission</a></li>
+                        <li><a href="/gallery/gallery.html"><i class="fas fa-chevron-right"></i> Gallery</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Facilities</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="single-footer">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="/home.html/index.html"><i class="fas fa-chevron-right"></i> News & Updates</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Pre-School</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Primary</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> JHS</a></li>
+                        <li><a href="#"><i class="fas fa-chevron-right"></i> Our History</a></li>
+                    </ul>
+                </div>
+
+                <div class="single-footer">
+                    <h4>Contact Us</h4>
+                    <ul>
+                        <li><a href="/contact/contact.html"><i class="fas fa-map-marker-alt"></i> Adenta, New Legon
+                                (Rosa - Rosa)</a></li>
+                        <li><a href="tel:0207563043"><i class="fas fa-mobile-alt"></i> 0207563043</a></li>
+                        <li><a href="tel:0551111186"><i class="fas fa-mobile-alt"></i> 0551111186</a></li>
+                        <li><a href="mailto:motherprovidenciasch@gmail.com"><i class="far fa-envelope"></i>
+                                motherprovidenciasch@gmail.com</a></li>
+                        <li><a href="#"><i class="fas fa-globe-europe"></i> www.demo.com</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="copy">
+                <p>&copy; 2020 all rights reserved</p>
+                <p class="powered-by">Powered by <a href="https://innovexlabs.com" target="_blank">InnovexLabs</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <button id="scrollTopBtn">&#8679;</button>
+
+    <!-- SCRIPT FOR SEARCH ON SITE     -->
+    <script>
+        document.getElementById("searchLink").addEventListener("click", function (e) {
+            e.preventDefault(); // Stop default link behavior
+
+            const input = document.getElementById("searchInput").value.toLowerCase();
+            const allLinks = document.querySelectorAll("nav a");
+
+            for (let link of allLinks) {
+                const text = link.textContent.toLowerCase();
+                if (text.includes(input) && input !== "") {
+                    // Open the first matched link in a new page
+                    window.location.href = link.getAttribute("href");
+                    return;
+                }
+            }
+
+            // If no match found
+            alert("No matching page found.");
+        });
+    </script>
+
+    <!-- MAIN MENU    -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const menuToggle = document.querySelector(".menu-toggle");
+            const menu = document.querySelector(".menu");
+            const submenuParents = document.querySelectorAll(".has-submenu > a");
+
+            // Toggle menu for mobile view
+            menuToggle.addEventListener("click", function () {
+                menu.classList.toggle("active");
+                document.body.classList.toggle("menu-open");
+            });
+
+            // Close menu when clicking outside
+            document.addEventListener("click", function (event) {
+                if (!menu.contains(event.target) && !menuToggle.contains(event.target)) {
+                    menu.classList.remove("active");
+                    document.body.classList.remove("menu-open");
+                }
+            });
+
+            // Toggle submenus on mobile
+            submenuParents.forEach(parent => {
+                parent.addEventListener("click", function (event) {
+                    if (window.innerWidth <= 768) {  // Only for mobile
+                        event.preventDefault();
+                        this.nextElementSibling.classList.toggle("submenu-active");
+                    }
+                });
+            });
+
+            // Sticky header with secondary header hide/show
+            window.addEventListener("scroll", function () {
+                const secondaryHeader = document.getElementById("secondaryHeader");
+                const mainHeader = document.getElementById("mainHeader");
+
+                if (window.scrollY > 100) {
+                    secondaryHeader.style.top = "-50px";
+                    mainHeader.classList.add("fixed");
+                } else {
+                    secondaryHeader.style.top = "0";
+                    mainHeader.classList.remove("fixed");
+                }
+            });
+        });
+    </script>
+
+    <script>
+        function openMenu() {
+            document.querySelector(".mobile-menu").classList.add("active");
+        }
+
+        function closeMenu() {
+            document.querySelector(".mobile-menu").classList.remove("active");
+        }
+
+        function toggleDropdown(event) {
+            event.preventDefault();
+            let submenu = event.target.nextElementSibling;
+            if (submenu.style.display === "block") {
+                submenu.style.display = "none";
+            } else {
+                submenu.style.display = "block";
+            }
+        }
+    </script>
+
+
+
+
+    <script>
+        // Get the button
+        var scrollTopBtn = document.getElementById("scrollTopBtn");
+
+        // Show button when scrolling down
+        window.onscroll = function () {
+            if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+                scrollTopBtn.style.display = "block";
+            } else {
+                scrollTopBtn.style.display = "none";
+            }
+        };
+
+        // Scroll to top when button is clicked
+        scrollTopBtn.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
+    <!-- ANIMATE SLIDE FOR PDF DOWNLOADS -->
+    <script>
+        const slider = document.querySelector(".slider");
+        const slides = document.querySelectorAll(".slide");
+        const dots = document.querySelectorAll(".dot");
+        let currentIndex = 0;
+
+        function updateSlider() {
+            slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+            dots.forEach(dot => dot.classList.remove("active"));
+            dots[currentIndex].classList.add("active");
+
+            // Reset animation on all slides
+            slides.forEach(slide => {
+                const content = slide.querySelector('.slide-content');
+                content.querySelector('h2').style.animation = "none";
+                content.querySelector('p').style.animation = "none";
+                content.querySelector('a').style.animation = "none";
+                void content.offsetWidth; // trigger reflow to reset animation
+            });
+
+            // Trigger animation on current slide
+            const currentSlide = slides[currentIndex];
+            const content = currentSlide.querySelector('.slide-content');
+            content.querySelector('h2').style.animation = "fadeSlideLeft 1s ease forwards";
+            content.querySelector('p').style.animation = "fadeSlideLeft 1s ease forwards 0.3s";
+            content.querySelector('a').style.animation = "fadeUp 1s ease forwards 0.6s";
+        }
+
+
+        function nextSlide() {
+            currentIndex = (currentIndex + 1) % slides.length;
+            updateSlider();
+        }
+
+        function prevSlide() {
+            currentIndex = (currentIndex - 1 + slides.length) % slides.length;
+            updateSlider();
+        }
+
+        function moveToSlide(index) {
+            currentIndex = index;
+            updateSlider();
+        }
+
+        // Auto slide (optional)
+        setInterval(nextSlide, 5000); // Change every 5 seconds
+    </script>
+
+    <!-- Ionicons (for arrow icons) -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+
+    <!-- COUNTER -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const counters = document.querySelectorAll(".counter span");
+            let started = false;
+
+            function animateCounters() {
+                counters.forEach(counter => {
+                    const target = +counter.getAttribute("data-count");
+                    let count = 0;
+                    const speed = 50; // Adjust speed
+
+                    // Extract suffix (like %, +) after the number
+                    const suffix = counter.textContent.replace(/\d+/g, '').trim();
+
+                    function updateCount() {
+                        if (count < target) {
+                            count += Math.ceil(target / 100);
+                            counter.textContent = (count > target ? target : count) + suffix;
+                            setTimeout(updateCount, 10);
+                        } else {
+                            counter.textContent = target + suffix;
+                        }
+                    }
+                    updateCount();
+                });
+            }
+
+            function checkScroll() {
+                const section = document.querySelector(".counters");
+                const sectionTop = section.getBoundingClientRect().top;
+                const screenHeight = window.innerHeight;
+
+                if (!started && sectionTop < screenHeight - 100) {
+                    animateCounters();
+                    started = true;
+                }
+            }
+
+            window.addEventListener("scroll", checkScroll);
+            checkScroll(); // Run on load in case already in view
+        });
+    </script>
+
+
+
+
+
+
+
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach((entry, index) => {
+                    if (entry.isIntersecting) {
+                        setTimeout(() => {
+                            entry.target.classList.add("show");
+                        }, index * 300);
+                    } else {
+                        entry.target.classList.remove("show");
+                    }
+                });
+            }, { threshold: 0.5 });
+
+            const hiddenElements = document.querySelectorAll(".hidden");
+            hiddenElements.forEach((el) => observer.observe(el));
+        });
+    </script>
+
+
+    <!-- LATEST NEWS AND UPDATE ANIMATION SCRIPT -->
+    <!-- Glide JS -->
+    <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+    <script>
+        new Glide('.blog-slider', {
+            type: 'carousel',
+            perView: 3,
+            gap: 20,
+            autoplay: 3000,
+            hoverpause: true,
+            breakpoints: {
+                768: {
+                    perView: 1
+                },
+                1024: {
+                    perView: 2
+                }
+            }
+        }).mount();
+    </script>
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
